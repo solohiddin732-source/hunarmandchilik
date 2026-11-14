@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milliy Hunarmandchilik</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1 class="logo">Usta<span>Zoda</span></h1>
+            <nav>
+                <a href="#haqida">Haqida</a>
+                <a href="#turlar">Yo'nalishlar</a>
+                <a href="#aloqa">Aloqa</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Qo'l mehnati — qalb harorati</h2>
+            <p>Asrlar osha saqlanib kelayotgan milliy hunarmandchilik an'analari va zamonaviy san'at uyg'unligi.</p>
+            <a href="#turlar" class="btn">Yo'nalishlarni ko'rish</a>
+        </div>
+    </section>
+
+    <section id="haqida" class="section">
+        <div class="container">
+            <h3>Hunarmandchilik haqida</h3>
+            <p>Hunarmandchilik — bu shunchaki kasb emas, balki avloddan-avlodga o'tib kelayotgan madaniy merosdir. Har bir naqsh va shaklda ustaning sabri, mahorati va tarixi mujassam.</p>
+        </div>
+    </section>
+
+    <section id="turlar" class="section bg-light">
+        <div class="container">
+            <h3>Asosiy yo'nalishlar</h3>
+            
+            <!-- Filtrlash tugmalari -->
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Barchasi</button>
+                <button class="filter-btn" data-filter="kulolchilik">Kulolchilik</button>
+                <button class="filter-btn" data-filter="yogoch">Yog'och o'ymakorligi</button>
+                <button class="filter-btn" data-filter="toqimachilik">To'qimachilik</button>
+            </div>
+
+            <!-- Kartochkalar -->
+            <div class="grid">
+                <div class="card" data-category="kulolchilik">
+                    <h4>Rishton kulolchiligi</h4>
+                    <p>Tabiiy bo'yoqlar va ishqorli sir yordamida yaratilgan moviy sopol buyumlar.</p>
+                </div>
+                <div class="card" data-category="yogoch">
+                    <h4>Yog'och o'ymakorligi</h4>
+                    <p>Yong'oq va chinor yog'ochlariga tushirilgan nafis islimiy va girih naqshlar.</p>
+                </div>
+                <div class="card" data-category="toqimachilik">
+                    <h4>So'zana va kashtachilik</h4>
+                    <p>Ipak iplar bilan qo'lda tikilgan an'anaviy bezakli matolar.</p>
+                </div>
+                <div class="card" data-category="kulolchilik">
+                    <h4>G'ijduvon sopollari</h4>
+                    <p>Issiq ranglar va o'ziga xos geometrik naqshlarga ega qadimiy maktab.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="aloqa">
+        <div class="container">
+            <p>&copy; 2026 UstaZoda. Barcha huquqlar himoyalangan.</p>
+            <p>Aloqa uchun: info@ustazoda.uz</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

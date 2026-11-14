@@ -1,0 +1,175 @@
+/* Asosiy sozlamalar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    color: #2c2825;
+    background-color: #fdfbf7;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    padding: 20px 0;
+    border-bottom: 1px solid #e6dfd5;
+    background-color: #fdfbf7;
+    position: sticky;
+    top: 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.logo span {
+    color: #9c6644;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2c2825;
+    margin-left: 25px;
+    font-size: 15px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #9c6644;
+}
+
+/* Hero qismi */
+.hero {
+    padding: 100px 0;
+    text-align: center;
+    background-color: #f4efe6;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+    color: #3d2c20;
+}
+
+.hero p {
+    max-width: 600px;
+    margin: 0 auto 30px;
+    color: #5c5346;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 28px;
+    background-color: #9c6644;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 15px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #7f4f24;
+}
+
+/* Umumiy bo'limlar */
+.section {
+    padding: 70px 0;
+}
+
+.bg-light {
+    background-color: #f7f3eb;
+}
+
+h3 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#haqida p {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    color: #5c5346;
+}
+
+/* Filtr tugmalari */
+.filter-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 35px;
+    flex-wrap: wrap;
+}
+
+.filter-btn {
+    padding: 8px 18px;
+    border: 1px solid #9c6644;
+    background: transparent;
+    color: #9c6644;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.filter-btn.active,
+.filter-btn:hover {
+    background-color: #9c6644;
+    color: #fff;
+}
+
+/* Kartochkalar (Grid) */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #fff;
+    padding: 25px;
+    border: 1px solid #e6dfd5;
+    border-radius: 6px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+}
+
+.card h4 {
+    margin-bottom: 10px;
+    color: #3d2c20;
+}
+
+.card p {
+    font-size: 14px;
+    color: #5c5346;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 30px 0;
+    border-top: 1px solid #e6dfd5;
+    font-size: 14px;
+    color: #7a7062;
+}
